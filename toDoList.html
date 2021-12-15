@@ -1,5 +1,5 @@
       <!-- Beggining Code -->
-      
+
 <!DOCTYPE html> 
 <html lang = "en">
 
@@ -7,6 +7,7 @@
 
   <head>
   <link rel = "stylesheet" href = ToDo.css>
+  <link rel = "stylesheet" href = ToDo.js>
     <meta charset = "utf-8">
 <title>ToDo List</title>
   </head>
@@ -17,7 +18,27 @@
 
 <div class = "border">
   <h1 class = "title">ToDo List</h1>
+    <div class = "buttons">
+<form action = "ToDo.js" method = "post">
+
+<label id = "addItemField">
+<input type = "text" name = "item" placeholder = "Add an item..." required/>
+</label>
+
+<label id = "submitButton">
+<input type = "button" value = "Submit" />
+</label>
+
+<label id = "clearListButton">
+<input type = "button" value = "Clear List" />  
+</label>
+
+</form>
 </div>
+</div>
+
+<!-- New Seciton-->
+
 
 
 
