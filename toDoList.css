@@ -1,3 +1,15 @@
+.buttons{
+  margin: auto;
+  padding: 10px 0px 0px;
+  text-align: center; 
+}
+.buttons input[type = "text"]{
+font-size: 20px;
+}
+.buttons input[type = "submit"]{
+  color: blue;
+}
+
 .border {
   margin: auto;
   padding: 0px;
@@ -8,12 +20,12 @@
   height: 240px;
   width: 800px;
   border-radius: 30px;
-
+  
 }
 
 .title {
   margin: auto;
-  padding: 45px;
+  padding: 30px 0px 10px;
   text-align: center;
   font-size: 4rem;
 }
